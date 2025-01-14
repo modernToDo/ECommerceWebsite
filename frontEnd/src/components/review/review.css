@@ -1,0 +1,26 @@
+
+.rev-cont > article{
+display: flex;flex-direction: column;
+width: 300px;
+gap: 10px;
+padding: 20px;
+border: 2px solid gray;
+margin-bottom: 20px;
+}
+.rev-cont > article button,.rev-cont > article select{
+    width: 130px;
+}
+.review{
+    display: flex;
+    align-items: start;
+}
+.review figure{
+    width: 300px;
+}
+.rev-cont .desc input:not(:first-of-type){
+    width:30px;
+    border: 0;
+    outline: 0;
+    height:30px;
+    border-radius:50%;
+}

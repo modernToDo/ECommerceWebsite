@@ -1,0 +1,10 @@
+ .carts{
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+    justify-content: center;
+}
+.section{
+    display: grid;
+    align-items: center;
+    grid-template-columns:repeat(2,400px) ;
+}
